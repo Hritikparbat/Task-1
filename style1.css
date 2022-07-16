@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(248, 243, 236);
+}
+
+#main {
+    border: 2px solid black;
+    width: 99%;
+    height: 100%;
+    display: grid;
+    margin: 2px;
+    grid-template-rows: 10% 90%;
+}
+
+#head {
+    border: 1px solid rgb(19, 19, 19);
+    width: 100%;
+    height: 100%;
+    background-color: rgb(41, 19, 232);
+}
+
+#body {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(11, 11, 11);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#code {
+    border: 1px solid none;
+    background-color: rgb(243, 248, 244);
+}
+
+#textcode {
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-size: x-large;
+    font-weight: 1000;
+    font-style: italic;
+    padding: 20px 20px 20px 20px;
+}
+
+#displayOutput {
+    border: 1px solid none;
+    background-color: rgb(228, 239, 18);
+    color: rgb(12, 126, 240);
+    padding: 15px 15px 15px 15px;
+    font-size: x-large;
+    font-weight: 1000;
+    font-style: italic;
+}
